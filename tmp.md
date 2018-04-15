@@ -1,4 +1,10 @@
-linux:
+# linux:
+
 vim ~/.bashrc
-mac:
+
+
+# mac:
+
 vim ~/.bash_profile
+
+vim ~/.gitignore_global
