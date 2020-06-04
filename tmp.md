@@ -12,7 +12,8 @@ vim ~/.gitignore_global
 ## mac ~/.bash_profile配置重启后不生效的解决方法
 
 
-在 ~/.bash_profile 中配置环境变量, 可是每次重启终端后配置的不生效.需要重新执行 : $source ~/.bash_profile
+在 ~/.bash_profile 中配置环境变量，可是每次重启终端后配置的不生效。需要重新执行 : $source ~/.bash_profile
+
 
 发现zsh加载的是 ~/.zshrc文件，而 ‘.zshrc’ 文件中并没有定义任务环境变量。
 
